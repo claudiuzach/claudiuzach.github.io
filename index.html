@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claudiu Zaharia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/71fba5fdf5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#header">
+                <img src="images/logo.png" class="logo">
+                </a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About me</a></li>   
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>IT Professional</p>
+                <h1>Hi, I`m <span>Claudiu</span> Zaharia </h1>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-solid fa-network-wired"></i>
+                <i class="fa-solid fa-video"></i>
+                <i class="fa-solid fa-shield"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <!-----------------------------about me page-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about_me.png">
+                    
+
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p>From a young age, I've been immersed in the world of IT, driven by a passion for innovation. The skills I've acquired along the way now serve as invaluable tools in navigating the digital landscape.
+
+                        In addition to my love for technology, I'm an avid traveler, constantly seeking new experiences and perspectives. With a curious mind and a spirit of adventure, I'm dedicated to making a meaningful impact in the ever-evolving field of technology, all while exploring the wonders of the world. </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <div class="column-1">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing Web & App interfaces using Figma/Adobe package and Artificial Intelligence </li>
+                                    <li><span>Front End Development</span><br>Developing websites and web applications using HTML/CSS/JavaScript/ReactJs/NodeJs or WordPress </li>
+                                    <li><span>Networking</span><br>Knowledge of network security, network administration, servers, routers, switching and more.</li>
+                                    <li><span>Incident Management</span><br>Managing incidents using different systems - Asana, ServiceNow, ZenDesk and others</li>
+                                    <li><span>Cybersecurity</span><br>Knowledge of penetration testing and security incident response</li>
+                                    <li><span>Operating systems</span><br>Knowledge of Windows, Linux, MacOS</li>
+                                    <li><span>Cloud computing</span><br>Knowledge of JavaScript, Python, SQL, cloud services platform and DevOps</li>
+                                    <li><span>Blockchain</span><br>Knowledge of smart contracts, cryptography and Ethereum, Ripple and Hyperledger networks.</li>
+                                    
+                                    
+                                </ul>
+                            </div>
+                            <div class="column-2">
+                              
+                                     
+                                    <li><span>Office 365</span><br></li>
+                                    <li><span>Disaster recovery</span><br></li>
+                                    <li><span>Servers</span><br>Knowledge of hardware and software | replacing parts and configuring devices like HP, Hitachi, Dell, Infinidat.</li>
+                                    <li><span>Creativity</span><br>Ability to create and find solutions to almost any issue</li>
+                                    <li><span>Communication</span><br>Ability to easily comunicate in a technical language as well as non-technical. <br></li>
+                                    <li><span>Project Management</span><br>Knowledge of how to manage a project end-to-end. <br></li>
+                                    <li><span>Teamwork and Collaboration </span><br>Ability to work in different teams, wearing different hats.  <br></li>
+                            </div>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Director of Global IT Operations</span><br>PowerMatt Ltd | United Kingdom | June 2020 to Present </li>
+                                    <li><span>Freelancer</span><br>2016 - Present | Europe & Africa |  </li>
+                                    <li><span>Support Engineer</span><br>Kompitech Ltd | United Kingdom | January 2020 to May 2020 </li>
+                                    <li><span>Data Entry and Validation Engineer</span><br>Lear Corporation | June 2016 to December 2016 </li>
+                                    
+                                    
+                                    
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>Bachelor of Business Administration: Cybernetics, Statistics and Economic Computer Science/Business IT</span><br>Faculty of Economics and Business Administration - Iasi, Romania <br> Year of Graduation: 2019 </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------services--------->
+
+    <div id="services">
+
+        <div class="container">
+            <h1 class="sub-title"> My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Web Design </h2>
+                    <p>I specialize in crafting visually stunning and user-friendly websites tailored to your needs. 
+                        Whether you're a small business or a large corporation, I'll create a website that reflects your brand identity and captivates your audience. 
+                        From responsive layouts to captivating visuals, let me help you make a lasting impression online.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h2> Network infrastructure </h2>
+                    <p>As a specialist in network solutions, I offer comprehensive services to optimize your organization's connectivity. 
+                        From designing robust network architectures to implementing secure configurations, I ensure seamless communication and data flow. 
+                        Whether you're a small business or a large enterprise, I'll tailor solutions to meet your specific needs, enhancing efficiency and reliability. 
+                        Let me empower your business with a strong, resilient network infrastructure.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-server"></i>
+                    <h2> Server maintenance </h2>
+                    <p>As a dedicated provider of server solutions, I offer comprehensive services to keep your systems running smoothly. From replacing hardware 
+                        components to proactive monitoring for alerts and incident resolution, I ensure your servers operate at peak performance. 
+                        Whether you're a small business or a large enterprise, I'll customize maintenance plans to suit your needs, minimizing downtime and 
+                        maximizing efficiency. Let me handle your server maintenance needs, so you can focus on growing your business</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bars-progress"></i>
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <h2> Installations & Migrations </h2>
+                    <p>As your trusted partner in technology, I offer expert assistance in installing various software, operating systems, and performing updates. 
+                        Additionally, I specialize in seamless data migrations to the cloud, ensuring a smooth transition while safeguarding your valuable information. 
+                        Whether you're implementing new systems or transitioning to cloud-based solutions, I'll provide tailored support to meet your requirements. 
+                        Let me simplify your IT processes and empower your business with efficient installations and migrations.</p>
+                        
+                </div>
+                <div>
+                    <i class="fa-solid fa-user-pen"></i>
+                    <h2> Tailored services </h2>
+                    <p>As your versatile IT partner, I offer comprehensive assistance to address virtually all your technology needs. From software installations and 
+                        system migrations to network setups and cybersecurity solutions, I provide customized support to meet your specific requirements. 
+                        Whether you're a small startup or a large enterprise, I'll work closely with you to deliver innovative solutions that drive your business forward. 
+                        Let me be your go-to resource for all things IT, empowering you to focus on what you do best while I handle the rest</p>
+                        
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> Email: claudiuzahariac@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> Telephone number: +40 758 684 549</p>
+                    
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your email" required>
+                        <textarea name="Message"   rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2" >Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>  
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Claudiu. </p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+    <script>
+        let tablinks = document.getElementsByClassName("tab-links"); 
+        let tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+
+    <script>
+        let sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxzn5TdZNM_4DNqhh5d88PdJ3qxGP3zlT9yOHYN-yneAkwuBrly-bjC83YfR4Mb2kFCQw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML =  "Your message has been sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 1000)
+            form.reset()
+        })
+        
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
