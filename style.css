@@ -451,6 +451,10 @@ nav .fa-regular, .fa-solid{
         margin-left: 40px;
     }
 
+    .header-text p, h1{
+        margin-top:-250px;
+    }
+
 
 }
 
