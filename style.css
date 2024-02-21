@@ -21,6 +21,7 @@ body{
     background-image: url(images/background_img.png);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .container{
