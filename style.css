@@ -21,7 +21,7 @@ body{
     background-image: url(images/background_img.png);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    
 }
 
 .container{
@@ -368,7 +368,7 @@ nav .fa-regular, .fa-solid{
         background-size: cover;
         background-position: center;
         width: 100vw;
-        background-attachment: fixed;
+        
     }
 
     .header-text{
